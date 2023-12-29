@@ -40,7 +40,7 @@ def send_mail():
     server.starttls()
     server.ehlo()
 
-    server.login('aniketjangle199@gmail.com', '8552943139')
+    server.login('shivanijangle1023@gmail.com', '8552943139')
 
     subject = 'price fell down!'
     body =' check the amazon link https://www.amazon.in/Realme-Pro-Sparkling-Blue-RAM/dp/B07Y8K4D7X/ref=sr_1_2?keywords=realme+5+pro&qid=1571740833&sr=8-2'
@@ -48,8 +48,8 @@ def send_mail():
     msg = f"Subject: {subject}\n\n{body}"
 
     server.sendmail(
-        'aniketjangle199@gmail.com',
-        'aniketjangle1998@gmail.com',
+        'shivanijangle1023@gmail.com',
+        'shivanijangle1023@gmail.com',
         msg
     )
 
